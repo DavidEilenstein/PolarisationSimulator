@@ -1,0 +1,3 @@
+Open Source
+Same License as: https://www.qt.io/
+Please quote me, if you reuse it :-)
