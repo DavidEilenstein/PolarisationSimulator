@@ -8,7 +8,7 @@ PS_MainWindow::PS_MainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     //spaces
-    vSpaces.resize(5, PS_Space());
+    vSpaces.resize(5);
     vSpaces[0].Set_Ui(
                 ui->label_Pol_S0,
                 ui->progressBar_S0,
@@ -67,7 +67,7 @@ PS_MainWindow::PS_MainWindow(QWidget *parent) :
 
 
     //Elements
-    vElements.resize(4, PS_Element());
+    vElements.resize(4);
     vElements[0].Set_Ui(
                 ui->comboBox_Type_E1,
                 ui->dial_Angle_E1,
