@@ -1,4 +1,5 @@
 #include "ps_stokescalc.h"
+#include <math.h>
 #include "ui_ps_stokescalc.h"
 
 PS_StokesCalc::PS_StokesCalc(QDir *pDIR, QWidget *parent) :
